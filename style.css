@@ -311,11 +311,7 @@ margin: 10px;
         margin: 10px;
     }
 
-    .tooltip {
-        position: static;
-        opacity: 1;
-        -webkit-text-fill-color: inherit;
-    }
+ 
 
     .bottum {
         padding-top: 30px;
