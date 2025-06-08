@@ -242,7 +242,7 @@ margin: 10px;
    border:none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     body {
         margin-left: 0;
         padding: 10px;
