@@ -1,0 +1,81 @@
+
+
+
+
+.sidebar {
+   position: fixed; 
+   background-color: black;
+   left:0;
+   bottom: 0;
+   width: 300px;
+   top: 0;
+   z-index: 100;
+}
+
+
+
+
+.name{
+   padding:50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color:yellow;
+   font-size: 30px;
+   font-weight: bold;
+   background: linear-gradient( to right, yellow, green);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.points {
+   
+   padding: 20px;
+   color:white;
+   cursor: pointer;
+   
+}
+.points:hover {
+   opacity: 0.5;
+   
+}
+.contact {
+   cursor: pointer;
+  padding: 20px;
+  background: linear-gradient( to right, yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact:hover {
+   opacity: 0.5;
+}
+
+.bottum {
+   text-align: center;
+   padding-top:150px;
+   
+   
+}
+.tinklai img {
+width: 50px;
+margin: 10px;
+
+
+
+
+
+
+}
+.networks {
+   background: linear-gradient( to right, yellow, green);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.dekoracija,a {
+   text-decoration: none;
+   color:white;
+   border:none;
+}
+
+

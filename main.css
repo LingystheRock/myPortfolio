@@ -1,0 +1,150 @@
+.main-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:0;
+    padding: 10px;
+
+}
+
+
+
+.text-about-me {
+    font-family: arial;
+    width: 600px;
+    line-height: 30px;
+}
+.front-end-text {
+    width: 450px;
+}
+.my-pic {
+    width:350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellowgreen;
+    
+    
+}
+   
+.pic-container {
+    
+    display: flex;
+    padding-right: 200px;
+    padding-left: 30px;
+    padding-top:20px 
+}
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    line-height: 30px;
+   
+}
+
+.name2 {
+    cursor: pointer;
+    background: linear-gradient( to right, yellow, green);
+    -webkit-background-clip: text;
+    transition: 0.7s;
+}
+.name2:hover {
+    
+    opacity: 0.5;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* tik tarpas tarp turinio ir mygtuku */
+.buttons {
+    padding-top: 70px;
+    
+}
+
+.cv {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    background: linear-gradient( to right, yellow, green);
+    transition: 0.5s;
+    
+  
+}
+.cv:hover {
+   
+    color:white;
+    
+}
+
+.Hire {
+padding: 10px 40px;
+border-radius: 10px;
+ background-color: black;
+ color:yellowgreen;
+  border:1px solid;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.Hire:hover {
+    
+    color:white;
+    
+}
+.stack-logo {
+   display: flex;
+   flex-direction: row; 
+}
+.html, .css, .git {
+    width: 50px;
+    padding: 10px;
+    margin-left:10px;
+    object-fit: cover;
+    cursor: pointer; 
+    
+}
+
+
+.tooltip{
+    position:absolute;
+    left: 24px;
+    top:-9px;
+    font-family: arial;
+    background: linear-gradient( to right, yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;   
+}
+
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+}
+
+
+
+.icon-container:hover .tooltip{
+    opacity: 1;
+    
+}
+
+
+
+.mystack {
+    background: linear-gradient( to right, yellow, green);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+
