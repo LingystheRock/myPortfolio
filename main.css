@@ -1,3 +1,65 @@
+@media screen and (max-width: 768px) {
+
+  body {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #111;
+  }
+
+  .points,
+  .contact,
+  .name {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .pic-container {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .text-about-me,
+  .front-end-text {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .my-pic {
+    width: 90%;
+    height: auto;
+  }
+
+  .stack-logo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .cv,
+  .Hire {
+    width: 80%;
+  }
+}
+
+
 .main-site {
     display: flex;
     flex-direction: column;
